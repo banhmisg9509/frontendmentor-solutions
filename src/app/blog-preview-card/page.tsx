@@ -19,7 +19,7 @@ export default function Page() {
 
 const BlogPreviewCard = () => {
   return (
-    <div className="max-width-[384px] flex flex-col gap-6 bg-white p-6 rounded-[20px] border border-black shadow-[8px_8px] hover:shadow-[16px_16px] transition-shadow duration-300">
+    <div className="max-w-96 flex flex-col gap-6 bg-white p-6 rounded-[20px] border border-black shadow-[8px_8px] hover:shadow-[16px_16px] transition-shadow duration-300">
       <Image
         src="/blog-preview-card/assets/images/illustration-article.svg"
         alt="illustration-article"
